@@ -55,7 +55,6 @@
       background: #fff;
     }
 
-    /* ── TOPBAR ── */
     .topbar {
       background: linear-gradient(90deg, #2e2e2e, #3d3d3d);
       color: #fff;
@@ -72,7 +71,6 @@
     .topbar em { font-style: normal; color: var(--yellow); }
     #countdown { color: var(--yellow); font-size: 14px; font-weight: 900; }
 
-    /* ── HERO ── */
     .hero {
       background: linear-gradient(180deg, #1a2410 0%, #253018 60%, #1e2914 100%);
       color: #fff;
@@ -102,7 +100,6 @@
       margin-bottom: 14px; line-height: 1.5;
     }
 
-    /* hero points */
     .hero-points { display: grid; gap: 8px; margin-bottom: 16px; }
     .hero-point {
       background: rgba(255,255,255,.1);
@@ -113,7 +110,6 @@
     }
     .hero-point-icon { color: #c8f07a; flex-shrink: 0; font-size: 15px; }
 
-    /* social bar */
     .social-bar {
       display: flex; align-items: center; gap: 8px;
       background: rgba(255,255,255,.1);
@@ -134,7 +130,6 @@
     .social-avatars span:first-child { margin-left: 0; }
     .social-bar b { color: #c8f07a; }
 
-    /* offer box */
     .offer-box {
       background: rgba(255,255,255,.08);
       backdrop-filter: blur(6px);
@@ -142,7 +137,6 @@
       border-radius: 20px; padding: 16px;
     }
 
-    /* size selector */
     .size-label {
       font-size: 12px; font-weight: 700;
       color: rgba(255,255,255,.6);
@@ -175,7 +169,6 @@
     }
     .size-btn.active small { color: #d8ffb0; }
 
-    /* price strip */
     .price-strip {
       display: flex; align-items: center;
       justify-content: space-between; gap: 8px;
@@ -194,7 +187,6 @@
     .price-new { font-size: clamp(32px, 8vw, 40px); font-weight: 900; color: var(--yellow); line-height: 1; }
     .price-new span { font-size: 16px; }
 
-    /* form inputs */
     .input {
       display: block; width: 100%;
       padding: 14px; margin-bottom: 10px;
@@ -211,7 +203,6 @@
     .input.error { border-color: var(--red) !important; box-shadow: 0 0 0 3px rgba(229,57,53,.15); }
     .input.valid { border-color: var(--success) !important; }
 
-    /* cta button */
     .btn-cta {
       display: block; width: 100%;
       text-align: center; padding: 17px 16px;
@@ -238,7 +229,7 @@
     }
     .secure-note {
       text-align: center; font-size: 11px;
-      color: rgba(255,255,255,.5); margin-top: 6px;
+      color: rgba(255,255,255,.72); margin-top: 8px; line-height: 1.5;
     }
 
     .success-box {
@@ -256,7 +247,6 @@
     }
     .phone-cta a { color: #c8f07a; font-weight: 800; font-size: 14px; }
 
-    /* ── SECTIONS ── */
     .section { padding: 20px 14px 0; border-top: 1px solid var(--line); }
 
     h2 {
@@ -271,7 +261,6 @@
       margin-bottom: 14px; line-height: 1.5;
     }
 
-    /* benefit cards */
     .ben-grid { display: grid; gap: 10px; }
     .ben-card {
       background: var(--card); border: 1px solid var(--line);
@@ -287,7 +276,6 @@
     .ben-card h3 { font-size: 15px; font-weight: 800; margin-bottom: 4px; }
     .ben-card p { font-size: 13px; color: var(--muted); line-height: 1.45; }
 
-    /* gift box */
     .gift-box {
       background: linear-gradient(180deg, #f4fff0, #eafbe0);
       border: 1px solid #cde8bb;
@@ -297,7 +285,6 @@
     .gift-box h3 { font-size: clamp(18px, 5vw, 22px); font-weight: 900; margin-bottom: 8px; }
     .gift-box p { font-size: 14px; color: var(--muted); line-height: 1.5; }
 
-    /* size cards */
     .size-cards { display: grid; gap: 10px; }
     .size-card {
       border: 1px solid var(--line); border-radius: 16px;
@@ -321,7 +308,6 @@
     }
     .mini-btn:active { background: var(--green-d); }
 
-    /* steps */
     .steps { display: grid; gap: 10px; }
     .step {
       display: flex; gap: 12px; align-items: flex-start;
@@ -337,7 +323,6 @@
     .step h4 { font-size: 15px; font-weight: 800; margin-bottom: 4px; }
     .step p { font-size: 13px; color: var(--muted); line-height: 1.45; }
 
-    /* reviews */
     .reviews-grid { display: grid; gap: 10px; }
     .review {
       background: #fff; border: 1px solid var(--line);
@@ -357,7 +342,6 @@
       border-radius: 999px; padding: 2px 8px; margin-top: 4px;
     }
 
-    /* trust */
     .trust-grid { display: grid; gap: 8px; }
     .trust-item {
       background: #f8faf5; border: 1px solid var(--line);
@@ -367,7 +351,6 @@
     }
     .trust-icon { font-size: 20px; flex-shrink: 0; }
 
-    /* faq */
     .faq { display: grid; gap: 8px; }
     details {
       border: 1px solid var(--line); border-radius: 14px;
@@ -385,7 +368,6 @@
     details[open] summary::after { content: '−'; }
     details p { margin: 0 0 14px; color: var(--muted); line-height: 1.55; font-size: 13px; }
 
-    /* final cta box */
     .final-box {
       background: linear-gradient(180deg, #1e2a14, #253018);
       color: #fff; border-radius: 18px;
@@ -399,7 +381,6 @@
     .final-box p { font-size: 13px; color: rgba(255,255,255,.7); margin-bottom: 16px; line-height: 1.5; }
     .final-box .stock-note { font-size: 12px; color: rgba(255,255,255,.5); margin-top: 8px; }
 
-    /* footer */
     .footer {
       padding: 20px 14px 16px; text-align: center;
       font-size: 11px; color: var(--muted); line-height: 1.7;
@@ -407,7 +388,6 @@
     }
     .footer strong { color: var(--text); }
 
-    /* sticky */
     .sticky {
       position: fixed; left:0; right:0; bottom:0; z-index:40;
       padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
@@ -434,7 +414,6 @@
       box-shadow: 0 4px 0 var(--yellow-d);
     }
 
-    /* fade-up */
     .fade-up { opacity:0; transform:translateY(16px); transition: opacity .45s ease, transform .45s ease; }
     .fade-up.visible { opacity:1; transform:none; }
 
@@ -446,7 +425,6 @@
 </head>
 <body>
 
-  <!-- TOPBAR -->
   <div class="topbar">
     <div>🎁 Насадка на 7 режимов <em>в подарок</em> · Оплата при получении</div>
     <div>⏱ Акция заканчивается через: <span id="countdown">--:--</span></div>
@@ -454,7 +432,6 @@
 
   <div class="page">
 
-    <!-- HERO -->
     <section class="hero" id="top">
 
       <div class="badge-row">
@@ -464,7 +441,7 @@
 
       <h1>Устал таскать тяжёлый шланг и распутывать его каждый раз?</h1>
 
-      <p class="hero-sub">Этот растягивается <strong>в 3 раза</strong>, весит в разы меньше и сам сворачивается после полива. Один раз попробуешь — старый выбросишь.</p>
+      <p class="hero-sub">Этот растягивается <strong>в 3 раза</strong>, весит намного меньше обычного и сам сжимается после полива. Один раз попробуешь — и уже не захочешь возвращаться к обычному шлангу.</p>
 
       <div class="hero-points">
         <div class="hero-point"><span class="hero-point-icon">✓</span><span>Растягивается в 3 раза при подаче воды, сжимается обратно сам</span></div>
@@ -479,13 +456,17 @@
         <span><b>214 человек</b> из Молдовы заказали за этот сезон</span>
       </div>
 
-      <!-- OFFER BOX -->
+      <div class="hero-point" style="margin-bottom:14px;background:rgba(255,77,77,.12);border:1px solid rgba(255,77,77,.28);">
+        <span class="hero-point-icon" style="color:#ff8a8a;">⚠</span>
+        <span><strong style="color:#ffd6d6;">По акционной цене осталось только 12 штук.</strong> После окончания акции цена будет выше.</span>
+      </div>
+
       <div class="offer-box">
         <div class="size-label">Выберите длину:</div>
         <div class="sizes">
           <button class="size-btn active" type="button"
             data-size="15 м" data-old="331 лей" data-new="199 лей" data-savings="132 лей">
-            15 м<small>199 лей</small>
+            15 м<small>🔥 Самый популярный · 199 лей</small>
           </button>
           <button class="size-btn" type="button"
             data-size="30 м" data-old="581 лей" data-new="349 лей" data-savings="232 лей">
@@ -514,16 +495,16 @@
         <input type="hidden" id="selectedSize" value="15 м">
 
         <button class="btn-cta" id="sendBtn" type="button" onclick="sendOrder()">
-          🛒 ЗАКАЗАТЬ СО СКИДКОЙ
+          🛒 ЗАБРАТЬ СЕГОДНЯ ЗА 199 ЛЕЙ
         </button>
 
-        <div class="form-note" id="formNote">Менеджер свяжется для подтверждения заказа</div>
+        <div class="form-note" id="formNote">Оставьте заявку сейчас — менеджер свяжется для подтверждения заказа</div>
 
         <div class="success-box" id="successBox">
-          ✅ Заявка принята!<br>Перезвоним в течение 30 минут.
+          ✅ Заявка принята!<br>Перезвоним в ближайшее время для подтверждения заказа.
         </div>
 
-        <div class="secure-note">Без предоплаты · Оплата при получении · Доставка по Молдове</div>
+        <div class="secure-note">✔ Оплата при получении<br>✔ Проверка товара перед оплатой<br>✔ Быстрая доставка по Молдове</div>
 
         <div class="phone-cta">
           📞 Предпочитаете позвонить? <a href="tel:+37378844315">+373 788 443 15</a>
@@ -532,7 +513,6 @@
 
     </section>
 
-    <!-- WHY BUY -->
     <div class="section fade-up">
       <h2>Почему его <em>покупают</em></h2>
       <div class="ben-grid">
@@ -567,7 +547,6 @@
       </div>
     </div>
 
-    <!-- GIFT -->
     <div class="section fade-up">
       <div class="gift-box">
         <img src="./img/img_1.1.1.jpg" alt="Насадка для полива 7 режимов">
@@ -576,7 +555,6 @@
       </div>
     </div>
 
-    <!-- SIZE CARDS -->
     <div class="section fade-up">
       <h2>Выберите <em>подходящую длину</em></h2>
       <p class="section-sub">15 м — для небольшого двора, 30 м — универсально, 45 м — для большой территории.</p>
@@ -617,7 +595,6 @@
       </div>
     </div>
 
-    <!-- HOW IT WORKS -->
     <div class="section fade-up">
       <h2>Как это <em>работает</em></h2>
       <div class="section" style="padding:0 0 14px; border:none;">
@@ -643,7 +620,6 @@
       </div>
     </div>
 
-    <!-- REVIEWS -->
     <div class="section fade-up">
       <h2>Отзывы <em>покупателей</em></h2>
       <div class="reviews-grid">
@@ -669,7 +645,6 @@
       </div>
     </div>
 
-    <!-- TRUST -->
     <div class="section fade-up">
       <h2>Спокойствие <em>при заказе</em></h2>
       <div class="trust-grid">
@@ -680,7 +655,6 @@
       </div>
     </div>
 
-    <!-- FAQ -->
     <div class="section fade-up">
       <h2>Частые <em>вопросы</em></h2>
       <div class="faq">
@@ -707,7 +681,6 @@
       </div>
     </div>
 
-    <!-- FINAL CTA -->
     <div class="section fade-up">
       <div class="final-box">
         <h3>Оформите заказ пока действует акция</h3>
@@ -727,63 +700,59 @@
 
   </div>
 
-  <!-- STICKY -->
   <div class="sticky">
     <div class="sticky-inner">
       <div class="sticky-price">
         <small>от</small>
         <strong id="stickyPrice">199 лей</strong>
       </div>
-      <a href="#top" class="sticky-btn">🛒 ЗАКАЗАТЬ СО СКИДКОЙ</a>
+      <a href="#top" class="sticky-btn">🛒 ЗАБРАТЬ СЕГОДНЯ</a>
     </div>
   </div>
 
   <script>
-    // ── COUNTDOWN ──
-      (function() {
-    var key = 'hose_cd';
-    var duration = 23 * 3600000 + 47 * 60000; // durata fixa
+    (function() {
+      var key = 'hose_cd';
+      var duration = 23 * 3600000 + 47 * 60000;
 
-    function getEnd() {
-      var stored = localStorage.getItem(key);
-      if (stored) return parseInt(stored);
+      function getEnd() {
+        var stored = localStorage.getItem(key);
+        if (stored) return parseInt(stored);
 
-      var newEnd = Date.now() + duration;
-      try { localStorage.setItem(key, newEnd); } catch(e){}
-      return newEnd;
-    }
-
-    var end = getEnd();
-
-    function tick() {
-      var now = Date.now();
-      var diff = end - now;
-
-      // 🔥 daca a ajuns la 0 → reset
-      if (diff <= 0) {
-        end = Date.now() + duration;
-        try { localStorage.setItem(key, end); } catch(e){}
-        diff = end - Date.now();
+        var newEnd = Date.now() + duration;
+        try { localStorage.setItem(key, newEnd); } catch(e){}
+        return newEnd;
       }
 
-      var h = Math.floor(diff / 3600000);
-      var m = Math.floor((diff % 3600000) / 60000);
-      var s = Math.floor((diff % 60000) / 1000);
+      var end = getEnd();
 
-      var el = document.getElementById('countdown');
-      if (el) {
-        el.textContent =
-          String(h).padStart(2,'0') + ':' +
-          String(m).padStart(2,'0') + ':' +
-          String(s).padStart(2,'0');
+      function tick() {
+        var now = Date.now();
+        var diff = end - now;
+
+        if (diff <= 0) {
+          end = Date.now() + duration;
+          try { localStorage.setItem(key, end); } catch(e){}
+          diff = end - Date.now();
+        }
+
+        var h = Math.floor(diff / 3600000);
+        var m = Math.floor((diff % 3600000) / 60000);
+        var s = Math.floor((diff % 60000) / 1000);
+
+        var el = document.getElementById('countdown');
+        if (el) {
+          el.textContent =
+            String(h).padStart(2,'0') + ':' +
+            String(m).padStart(2,'0') + ':' +
+            String(s).padStart(2,'0');
+        }
       }
-    }
 
-    tick();
-    setInterval(tick, 1000);
-  })();
+      tick();
+      setInterval(tick, 1000);
+    })();
 
-    // ── SIZE SELECTOR ──
     var currentSize = '15 м';
     var currentPrice = '199 лей';
 
@@ -809,9 +778,11 @@
       document.getElementById('savingsTag').textContent = savings || ('-' + calcSavings(oldP, newP));
       document.getElementById('selectedSize').value = size;
       document.getElementById('stickyPrice').textContent = newP;
+
+      var sendBtn = document.getElementById('sendBtn');
+      sendBtn.innerHTML = '🛒 ЗАБРАТЬ СЕГОДНЯ ЗА ' + parseInt(newP) + ' ЛЕЙ';
     }
 
-    // ── VALIDATION ──
     const TOKEN   = '8739588541:AAH52_thSm5D64bxP4kaCk4RETiDVTC7S4Q';
     const CHAT_ID = '8297678861';
 
@@ -838,7 +809,6 @@
       else { this.classList.remove('valid'); }
     });
 
-    // ── SEND ORDER ──
     async function sendOrder() {
       const nameInput  = document.getElementById('clientName');
       const phoneInput = document.getElementById('clientPhone');
@@ -878,7 +848,6 @@
       note.style.color = 'rgba(255,255,255,.5)';
       note.textContent = 'Пожалуйста, подождите...';
 
-      // Preluam pretul curent
       var priceText = document.getElementById('newPrice').textContent.trim();
 
       const text =
@@ -903,7 +872,7 @@
           btn.style.boxShadow  = '0 6px 0 #16a34a';
           btn.textContent = '✓ Заявка принята!';
           note.style.color = '#86efac';
-          note.textContent = 'Перезвоним в течение 30 минут для подтверждения.';
+          note.textContent = 'Перезвоним в ближайшее время для подтверждения заказа.';
           nameInput.value = ''; phoneInput.value = '';
           nameInput.classList.remove('valid'); phoneInput.classList.remove('valid');
           successBox.style.display = 'block';
@@ -912,13 +881,12 @@
       } catch(e) {
         btn.disabled = false;
         btn.style.animation = 'pulse-y 2.5s ease-in-out infinite';
-        btn.textContent = '🛒 ЗАКАЗАТЬ СО СКИДКОЙ';
+        btn.textContent = '🛒 ЗАБРАТЬ СЕГОДНЯ';
         note.style.color = '#ff6b6b';
         note.textContent = '❌ Ошибка. Попробуйте ещё раз или позвоните нам.';
       }
     }
 
-    // ── FADE-UP ──
     const obs = new IntersectionObserver(entries => {
       entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
     }, { threshold: 0.06 });
